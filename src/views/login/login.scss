@@ -1,0 +1,18 @@
+
+.login-container {
+  @include relative;
+  @include setColorByKeys('background-color', 'login-bgc');
+  height: 100vh;
+  .login-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 500px;
+    padding: 35px 35px 15px 35px;
+    margin: 200px auto;
+    .login-btn {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+}
